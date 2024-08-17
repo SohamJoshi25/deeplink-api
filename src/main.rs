@@ -8,6 +8,7 @@ use util::json_loader::load_json;
 
 use actix_web::{get, web, App, HttpResponse, HttpServer, Responder};
 use std::sync::{Arc, Mutex};
+use actix_cors::Cors;
 
 
 
