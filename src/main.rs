@@ -58,7 +58,7 @@ async fn main() -> std::io::Result<()> {
                     .route(web::get().to(deeplink))
             ))  // Using `.service(health)` directly because of `#[get]` macro
     })
-    .bind(("0.0.0.0", 3020))?
+    .bind(("0.0.0.0", 3000))?
     .run()
     .await
 }
