@@ -1,0 +1,112 @@
+{
+    "whatsapp": "com.whatsapp",
+    "youtube": "com.google.android.youtube",
+    "twitter": "com.twitter.android",
+    "facebook": "com.facebook.katana",
+    "messenger": "com.facebook.orca",
+    "instagram": "com.instagram.android",
+    "linkedin": "com.linkedin.android",
+    "snapchat": "com.snapchat.android",
+    "tiktok": "com.zhiliaoapp.musically",
+    "pinterest": "com.pinterest",
+    "reddit": "com.reddit.frontpage",
+    "telegram": "org.telegram.messenger",
+    "signal": "org.thoughtcrime.securesms",
+    "discord": "com.discord",
+    "skype": "com.skype.raider",
+  
+
+    "amazon": "in.amazon.mShop.android.shopping",
+    "ebay": "com.ebay.mobile",
+    "walmart": "com.walmart.android",
+    "flipkart": "com.flipkart.android", 
+    "myntra": "com.myntra.android", 
+    "jabong": "com.jabong.android",
+  
+    "spotify": "com.spotify.music",
+    "netflix": "com.netflix.mediaclient",
+    "hulu": "com.hulu.plus",
+    "disneyplus": "com.disney.disneyplus",
+    "primevideo": "com.amazon.avod.thirdpartyclient",
+    "twitch": "tv.twitch.android.app",
+    "youtubeMusic": "com.google.android.apps.youtube.music",
+    "hotstar": "in.startv.hotstar", 
+    "jiotv": "com.jio.media.jiotv", 
+  
+
+    "drive": "com.google.android.apps.docs",
+    "dropbox": "com.dropbox.android",
+    "onedrive": "com.microsoft.skydrive",
+    "evernote": "com.evernote",
+    "trello": "com.trello",
+    "notion": "notion.id",
+    "cred": "com.cred.app",
+  
+    "zoom": "us.zoom.videomeetings",
+    "teams": "com.microsoft.teams",
+    "slack": "com.Slack",
+    "meet": "com.google.android.apps.tachyon",
+    "jiomeet": "com.jio.jiomeet",
+  
+   
+    "maps": "com.google.android.apps.maps",
+    "uber": "com.ubercab",
+    "lyft": "me.lyft.android",
+    "airbnb": "com.airbnb.android",
+    "tripadvisor": "com.tripadvisor.tripadvisor",
+    "booking": "com.booking",
+    "ola": "com.olacabs.customer",
+  
+
+    "paypal": "com.paypal.android.p2pmobile",
+    "venmo": "com.venmo",
+    "cashApp": "com.squareup.cash",
+    "googlePay": "com.google.android.apps.walletnfcrel",
+    "paytm": "net.one97.paytm",
+    "phonepe": "com.phonepe.app",
+    "razorpay": "com.razorpay.android", 
+  
+
+    "gmail": "com.google.android.gm",
+    "outlook": "com.microsoft.office.outlook",
+    "calendar": "com.google.android.calendar",
+    "lastpass": "com.lastpass.lpandroid",
+    "1password": "com.agilebits.onepassword",
+  
+
+    "tinder": "com.tinder",
+    "bumble": "com.bumble.app",
+    "okcupid": "com.okcupid.okcupid",
+
+    "steam": "com.valvesoftware.android.steam.community",
+    "playstation": "com.scee.psxandroid",
+    "xbox": "com.microsoft.xboxone.smartglass",
+  
+
+    "flipboard": "flipboard.app",
+    "nytimes": "com.nytimes.android",
+    "kindle": "com.amazon.kindle",
+  
+
+    "myfitnesspal": "com.myfitnesspal.android",
+    "fitbit": "com.fitbit.FitbitMobile",
+    "strava": "com.strava",
+  
+
+    "snapseed": "com.niksoftware.snapseed",
+    "lightroom": "com.adobe.lrmobile",
+    "canva": "com.canva.editor",
+  
+
+    "jiosaavn": "com.jio.media.jiobeats",
+    "gaana": "com.gaana",
+  
+
+    "haptik": "com.haptik.android", 
+    "urbanClap": "com.urbanclap.consumer", 
+    "groww": "com.groww.android",
+    "inshorts": "com.nischt.inshorts",
+    "lenskart": "com.lenskart.customer", 
+    "koo": "com.koo.app", 
+    "navi": "com.navi.app" 
+}
