@@ -5,3 +5,6 @@ List of API Endpoints (All are Get Methods)
 2. /info
 3. /availablelinks
 4. /?url=your-url-here
+
+Deployed on Render.com , may take time to start.
+Thankyou for using my API
