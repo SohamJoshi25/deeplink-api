@@ -113,8 +113,8 @@
                 ios.href = res.deeplink.android;
                 ios.innerText = res.deeplink.ios;
     
-                OutputAndroid.appendChild(android);
-                OutputIos.appendChild(ios);
+                OutputAndroid.innerHTML = android
+                OutputIos.innerHTML = ios ;
     
             }).catch((e)=>{
                 window.alert(`URL Not Recognised or Some error occured | ${e}`);
