@@ -16,6 +16,9 @@ pub async fn deeplink(
     params: web::Query<QueryParams>,
     state: web::Data<AppState>,
 ) -> impl Responder {
+    if params.url.is_empty() {
+        return HttpResponse::BadRequest().json("Error: Missing required field 'url'.");
+    }
     let link = params.url.clone();
     let packages: std::sync::MutexGuard<HashMap<String, String>> = state.data.lock().unwrap();
 
@@ -35,20 +38,20 @@ pub async fn deeplink(
         None => {
             return HttpResponse::BadRequest().json(APIResponse {
                 deeplink: None,
-                message: Some("Link not recognized".to_string()),
+                message: Some("App not recognized".to_string()),
             });
         }
     };
 
     let deepurl_android = format!("intent://{}#Intent;scheme=https;package={};end", base_url, package);
-    let deepurl_ios = ""; // Handle iOS logic if needed
+    let deepurl_ios =  format!("{}://{}", app, base_url); // Handle iOS logic if needed
 
     let response = APIResponse {
         deeplink: Some(Link {
             android: deepurl_android.replace(" ", "+"),
-            ios: deepurl_ios.to_string(),
+            ios: deepurl_ios.to_string().replace(" ", "+"),
         }),
-        message: Some("Success".to_string()),
+        message: Some(format!("{}", app)),
     };
 
     HttpResponse::Ok().json(response)

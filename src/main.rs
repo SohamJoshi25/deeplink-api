@@ -24,7 +24,7 @@ async fn health() -> impl Responder {
 async fn info() -> impl Responder {
     HttpResponse::Ok().json(APIResponse {
         deeplink: None,
-        message: Some("Information about this API".to_string()),
+        message: Some("Welcome to DeepLink API by Soham Joshi: Available Methods:GET Available Endpoints:  1./health 2./availablelinks 3./info or / 4./?url=your_link".to_string()),
     })
 }
 
