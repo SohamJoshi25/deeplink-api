@@ -44,19 +44,25 @@
     
     button{
         margin:auto;
-        width:20%;
+        min-width: fit-content;
     }
     
     .output{
-        padding:2rem;
+        text-align:center;
+        text-overflow: clip;
+        text-wrap:stable;
+        padding:1em;
         margin:auto;
-        font-size:2em;
+        font-size:1em;
+    }
+
+    .output>div>{
+        display: block;
+        
+
     }
     
-    a{
-        text-align:center;
-        padding:1rem;
-    }
+
     
 
     </style>
@@ -75,11 +81,13 @@
     <br>
     <hr>
     <div class="output">
-        <div id="output_android">
+        <div >
             Android:
+            <p id="output_android"></p>
         </div>
-        <div id="output_ios">
+        <div >
             IOS:
+            <p id="output_ios"></p>
         </div>
     </div>
     <hr>
